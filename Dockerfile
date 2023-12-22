@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/InterstellarNetwork/Interstellar.git
+RUN git clone https://github.com/JonnycatMeow/zypher-deploy-docker.git
 
-WORKDIR /Interstellar
+WORKDIR /zypher-deploy-docker
 
 RUN npm install
 
